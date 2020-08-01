@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::post('/books', 'BookSController@store');
 Route::patch('/books/{book}', 'BookSController@update');
+Route::delete('/books/{book}', 'BookSController@destroy');
